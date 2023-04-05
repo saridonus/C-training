@@ -57,19 +57,39 @@
 //        }
 //    }
 //}
-Console.WriteLine("Problem5");
-Problem5();
+//Console.WriteLine("Problem5");
+//Problem5();
 
-void Problem5()
+//void Problem5()
+//{
+//    var sum = 0;
+//    for (int i = 0; i < 10; i++)
+//    {
+//        if (i % 3 == 0 || i % 5 == 0)
+//        {
+//            sum+=i;
+//        }
+//    }
+
+//    Console.WriteLine(sum);
+//}
+//void Problem6 (){
+//    int number = 5;
+//    Console.WriteLine(number / 3);
+//    Console.WriteLine(number % 3);
+//}
+//Problem6();
+
+void Problem7()
 {
-    var sum = 0;
-    for (int i = 0; i < 10; i++)
+    int sum = 0;
+    int n = 1;
+    do
     {
-        if (i % 3 == 0 || i % 5 == 0)
-        {
-            sum+=i;
-        }
-    }
-
+        sum = sum + n;
+        n++;
+    } while (n <= 10); 
     Console.WriteLine(sum);
 }
+
+Problem7();
